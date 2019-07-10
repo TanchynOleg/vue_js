@@ -1,8 +1,8 @@
 <template>
-  <div class="about">
+  <div class="contact">
     <Header/>
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="This is an about page with Vue js"/>
+    <ContactBlock/>
+    <HelloWorld msg="This is an contact page with Vue js"/>
     <Footer/>
   </div>
 </template>
@@ -23,5 +23,5 @@ import ContactBlock from '@/components/ContactBlock.vue'
     ContactBlock
   }
 })
-export default class About extends Vue {}
+export default class Contact extends Vue {}
 </script>

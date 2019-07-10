@@ -1,8 +1,8 @@
 <template>
-  <div class="about">
+  <div class="products">
     <Header/>
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="This is an about page with Vue js"/>
+    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
     <Footer/>
   </div>
 </template>
@@ -23,5 +23,5 @@ import ContactBlock from '@/components/ContactBlock.vue'
     ContactBlock
   }
 })
-export default class About extends Vue {}
+export default class Products extends Vue {}
 </script>

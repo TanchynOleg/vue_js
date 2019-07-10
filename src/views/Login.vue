@@ -1,8 +1,7 @@
 <template>
   <div class="about">
     <Header/>
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="This is an about page with Vue js"/>
+    <Login/>
     <Footer/>
   </div>
 </template>
