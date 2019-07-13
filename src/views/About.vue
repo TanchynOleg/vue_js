@@ -1,25 +1,22 @@
 <template>
   <div class="about">
     <Header/>
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="This is an about page with Vue js"/>
+    <TeamBlock/>
     <Footer/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import HelloWorld from '@/components/HelloWorld.vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import Login from '@/components/Login.vue'
 import ContactBlock from '@/components/ContactBlock.vue'
+import TeamBlock from '@/components/TeamBlock.vue'
 @Component({
   components: {
-    HelloWorld,
+    TeamBlock,
     Header,
     Footer,
-    Login,
     ContactBlock
   }
 })

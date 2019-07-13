@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row ">
           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-            <div class="ft-logo"><img src="https://www.zaprinta.com/images/main-logo.png" alt="footer-logo"></div>
+            <div class="ft-logo"><img src="https://github.com/vuejs/awesome-vue/raw/master/logo.svg?sanitize=true" alt="footer-logo"></div>
           </div>
         </div>
         <hr class="footer-line">
@@ -106,7 +106,7 @@ export default class Footer extends Vue {
   .btn-default.focus, .btn-default:focus { background-color: #ec8a13; color: #fff; border: 1px solid #ec8a13; box-shadow: 0 0 0 0.1rem rgb(236, 138, 19); }
   .form-control { border-radius: 0px; font-size: 14px; font-weight: 700; width: 100%; height: 64px; padding: 16px 20px; line-height: 1.42857143; border: 1px solid #d6dadc; background-color: #fff; text-transform: capitalize; letter-spacing: 0px; margin-bottom: 30px; -webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); -webkit-appearance: none; color: #011c28; }
   .form-control:focus { color: #011c28; outline: 0; box-shadow: 0 0 0 0.0rem rgb(255, 255, 255); border-color: #c9cdd0; background-color: #f0f4f6; }
-  .footer { background-color: #08202e; padding-top: 80px; color: #636e74; font-weight: 400; font-size: 17px; }
+  .footer { margin-top: 120px; background-color: #08202e; padding-top: 80px; color: #636e74; font-weight: 400; font-size: 17px; }
   .footer-line { border-color: #152e3d; }
   .footer-widget { padding-bottom: 50px; }
   .footer-title { font-size: 24px; font-weight: 600; margin-bottom: 44px; color: #fff; }

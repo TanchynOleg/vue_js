@@ -1,26 +1,22 @@
 <template>
-  <div class="about">
+  <div class="login">
     <Header/>
-    <Login/>
+    <LoginBlock/>
     <Footer/>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import HelloWorld from '@/components/HelloWorld.vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import Login from '@/components/Login.vue'
-import ContactBlock from '@/components/ContactBlock.vue'
+import LoginBlock from '@/components/LoginBlock.vue'
 @Component({
   components: {
-    HelloWorld,
     Header,
-    Footer,
-    Login,
-    ContactBlock
+    LoginBlock,
+    Footer
   }
 })
-export default class About extends Vue {}
+export default class Login extends Vue {}
 </script>

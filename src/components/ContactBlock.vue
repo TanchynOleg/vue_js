@@ -47,13 +47,12 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 body{
   background-color: #25274d;
 }
-.contact{
+#contact{
   padding: 4%;
-  height: 400px;
 }
 .col-md-3{
   background: #ff9b00;
@@ -102,21 +101,3 @@ export default class ContactBlock extends Vue {
     @Prop() private msg!: string;
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
