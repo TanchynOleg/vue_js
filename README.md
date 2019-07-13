@@ -1,4 +1,4 @@
-# zaprinta
+# Vue js
 
 ## Project setup
 ```
